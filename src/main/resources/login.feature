@@ -1,9 +1,13 @@
 Feature: Broadleaf Login feature
 
-  Scenario: Broadleaf Login Test Scenario
+  Scenario: AmazonLogin Test Scenario
 
-    Given User is already on login page
-    When title of login page is Broadleaf Commerce Demo Store - Heat Clinic - Login
-    Then User enters username and  User enters password
-    Then  User clicks on login button
+    Given User is on amazon appplicaton
+    When title of login page is Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+    And User clicks on Sign in link
+    When User enters username
+    And  User clicks on Continue
+    When User enters password
+    And   User clicks on Sign in button
+    Then User is on homepage
 
