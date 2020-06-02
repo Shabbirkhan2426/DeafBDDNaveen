@@ -87,7 +87,7 @@ formatter.match({
   "location": "stepsdefination.LoginStepDef.user_is_on_homepage()"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003cA[mazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\u003e but was:\u003cA[uthentication required]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat stepsdefination.LoginStepDef.user_is_on_homepage(LoginStepDef.java:79)\n\tat ✽.User is on homepage(file:///Users/shabbirkhan/IdeaProjects/DeafBDDNaveen/src/main/resources/login.feature:12)\n",
+  "error_message": "org.junit.ComparisonFailure: expected:\u003cA[mazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\u003e but was:\u003cA[uthentication required]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat stepsdefination.LoginStepDef.user_is_on_homepage(LoginStepDef.java:73)\n\tat ✽.User is on homepage(file:///Users/shabbirkhan/IdeaProjects/DeafBDDNaveen/src/main/resources/login.feature:12)\n",
   "status": "failed"
 });
 });
